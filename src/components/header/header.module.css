@@ -1,0 +1,23 @@
+/*Create root for aplication in the project*/
+:root{
+    --primary-color: #4E342E;
+    --second-color:#B71C1C;
+    --third-color:#E0E0E0;
+}
+/*Crate header for the project */
+header{
+    display: flex;
+    color: #fff;
+    background-color: var(--second-color);
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+    color: var(--second-color);
+}
+/*Styling the h1 for the component header*/
+h1{
+    font-weight: bold;
+}

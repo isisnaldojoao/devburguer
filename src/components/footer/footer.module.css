@@ -1,0 +1,20 @@
+/*Create root for aplication in the project*/
+:root{
+    --primary-color: #4E342E;
+    --second-color:#B71C1C;
+    --third-color:#E0E0E0;
+}
+
+/*Create footer for credits the author*/
+footer{
+    background-color: var(--second-color);
+    color: var(--third-color);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 50px;
+}
+/*Styling the h3 for the component footer*/
+h3{
+    padding: 10px;
+}

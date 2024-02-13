@@ -1,0 +1,45 @@
+/*Create root for aplication in the project*/
+:root{
+    --primary-color: #4E342E;
+    --second-color:#B71C1C;
+    --third-color:#E0E0E0;
+}
+
+
+span{
+    color: var(--second-color);
+}
+
+/*Distribuing section for the all space for project creating a dynamic*/
+section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+    background-color: var(--third-color);
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    height: 320px;
+    color: var(--primary-color);
+    cursor: pointer;
+    margin: 25px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+/*Creating rules for the img*/
+section img{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+/*Creating rules for the h3*/
+section h3{
+    margin-top: 10px;
+    
+}
+/*The hover for animation for interaction with user*/
+section:hover{
+    transform: scale(1.1);
+}
