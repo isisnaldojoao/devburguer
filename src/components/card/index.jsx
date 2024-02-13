@@ -9,7 +9,7 @@ function Card(props) {
         <img src={props.img}></img>
         <div className='area-text'>
             <h3>Name: <span>{props.name}</span></h3>
-            <h3>Price: <span>R${props.price}</span></h3>
+            <h3>Price: <span>${props.price}</span></h3>
         </div>
     </section>
     );
