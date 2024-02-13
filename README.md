@@ -1,6 +1,11 @@
-# Getting Started with Create React App
+# DevBurguer
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Theme 
+
+![image](https://github.com/isisnaldojoao/devburguer/assets/145622770/331c1ca0-ba7e-4a76-a411-b25fef829cd0)
+
 
 ## Available Scripts
 
